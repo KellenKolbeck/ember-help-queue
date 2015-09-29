@@ -1,0 +1,12 @@
+{{yield}}
+
+<div id="single-ticket">
+
+
+  {{#each model as |help-ticket|}}
+  {{single-ticket help-ticket=help-ticket destroyTicket="destroyTicket"}}
+  {{/each}}
+
+
+
+</div>

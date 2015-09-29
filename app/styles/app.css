@@ -56,11 +56,6 @@ button {
 
 }
 
-#help-page-container button {
-  float:right;
-
-}
-
 #index-container {
   max-width: 50%;
   width: 100%;
@@ -73,7 +68,7 @@ button {
 
 #index-container:hover {
   text-decoration: none;
-  
+
 
 }
 
@@ -87,4 +82,44 @@ button {
   font-size:1.5em;
   font-family: 'Nixie One', cursive;
 
+}
+
+#new-ticket-container button {
+  float:right;
+}
+
+#new-ticket h3 {
+  font-family: 'Nixie One', cursive;
+}
+
+/*###########TICKET WINDOW PAGE############ */
+
+#single-ticket {
+  max-width: 50%;
+  width: 100%;
+  margin: 0 auto;
+  text-align:center;
+  font-size:1.5em;
+  font-family: 'Nixie One', cursive;
+}
+
+#single-ticket button {
+  float:right;
+}
+
+
+/*###########CURRENT TICKETS PAGE############ */
+
+#current-tickets {
+    max-width: 50%;
+    width: 100%;
+    margin: 0 auto;
+    text-align:center;
+    font-size:1.5em;
+    font-family: 'Nixie One', cursive;
+  }
+
+#current-tickets-header h3 {
+  text-align:left;
+  font-family: 'Nixie One', cursive;
 }
