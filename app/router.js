@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('documenting');
   this.route('help-page');
   this.route('debugging');
+  this.route('ticket-window');
 });
 
 export default Router;

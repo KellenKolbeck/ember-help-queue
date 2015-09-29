@@ -13,7 +13,7 @@ export default Ember.Component.extend({
         name: this.get('name'),
         body: this.get('body')
       }
-      this.sendAction("createTicket");
+      this.sendAction("createTicket", params);
       this.set("newTicketForm", false);
     },
 
