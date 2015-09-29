@@ -1,0 +1,49 @@
+/*###########JUMBOTRON############ */
+
+.jumbotron {
+  background-color: #FF530D;
+  text-align: center;
+  color: #fff;
+  padding: 0.5em;
+}
+
+.jumbotron h3 {
+  font-family: 'Nixie One', cursive;
+}
+
+/*###########BODY############ */
+
+body {
+  background: #EFF0F4;
+  font-family: 'Nixie One', cursive;
+}
+
+/*###########FOOTER############ */
+#footer {
+  text-align: center;
+  color: #4CDCFF;
+}
+
+#footer:hover {
+  text-decoration: none;
+  font-size: 105%;
+}
+
+/*###########DEBUGGER PAGE############ */
+#debugger-container {
+  max-width: 50%;
+  width: 100%;
+  margin: 0 auto;
+  text-align:center;
+  font-size:1.5em;
+  font-family: 'Nixie One', cursive;
+}
+
+#other-pair-container {
+  max-width: 50%;
+  width: 100%;
+  margin: 0 auto;
+  text-align:center;
+  font-size:1.5em;
+  font-family: 'Nixie One', cursive;
+}
