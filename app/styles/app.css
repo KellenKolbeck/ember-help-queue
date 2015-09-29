@@ -29,17 +29,8 @@ body {
   font-size: 105%;
 }
 
-/*###########DEBUGGER PAGE############ */
-#debugger-container {
-  max-width: 50%;
-  width: 100%;
-  margin: 0 auto;
-  text-align:center;
-  font-size:1.5em;
-  font-family: 'Nixie One', cursive;
-}
-
-#other-pair-container {
+/*###########DOCUMENTING PAGE############ */
+.help-windows-container {
   max-width: 50%;
   width: 100%;
   margin: 0 auto;

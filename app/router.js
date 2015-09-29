@@ -8,6 +8,7 @@ var Router = Ember.Router.extend({
 Router.map(function() {
   this.route('statistics');
   this.route('other-pair');
+  this.route('documenting');
 });
 
 export default Router;
