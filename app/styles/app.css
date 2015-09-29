@@ -38,3 +38,7 @@ body {
   font-size:1.5em;
   font-family: 'Nixie One', cursive;
 }
+
+.help-windows-container button {
+  float:right;
+}
