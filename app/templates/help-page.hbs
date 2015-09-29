@@ -1,11 +1,11 @@
 {{outlet}}
 
-<div class="help-windows-container">
+<div id="help-page-container">
   <div class="form-group">
-    {{input type="text" name="student-name" placeholder="Please enter your name" class="form-control"}}
+    {{input type="text" name="name" placeholder="Please enter your name" class="form-control"}}
     <br>
-    {{textarea name="student-problem" placeholder="Give a brief description of issue you are having" class="form-control" rows="6"}}
+    {{textarea name="body" placeholder="Give a brief description of issue you are having" class="form-control" rows="6"}}
     <br>
-    {{#link-to 'other-pair'}}<button class="btn btn-primary">Help!</button>{{/link-to}}
+    {{#link-to 'index'}}<button class="btn btn-primary">Help!</button>{{/link-to}}
   </div>
 </div>

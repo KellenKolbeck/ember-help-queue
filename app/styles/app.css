@@ -1,7 +1,7 @@
 /*###########JUMBOTRON############ */
 
 .jumbotron {
-  background-color: #FF530D;
+  background-color: #f05a26;
   text-align: center;
   color: #fff;
   padding: 0.5em;
@@ -21,7 +21,7 @@ body {
 /*###########FOOTER############ */
 #footer {
   text-align: center;
-  color: #4CDCFF;
+  color: #f05a26;
 }
 
 #footer:hover {
@@ -29,7 +29,7 @@ body {
   font-size: 105%;
 }
 
-/*###########DOCUMENTING PAGE############ */
+/*###########DOCUMENTING PAGES############ */
 .help-windows-container {
   max-width: 50%;
   width: 100%;
@@ -39,6 +39,16 @@ body {
   font-family: 'Nixie One', cursive;
 }
 
-.help-windows-container button {
+
+#help-page-container {
+  max-width: 50%;
+  width: 100%;
+  margin: 0 auto;
+  text-align:center;
+  font-size:1.5em;
+  font-family: 'Nixie One', cursive;
+}
+
+#help-page-container button {
   float:right;
 }
