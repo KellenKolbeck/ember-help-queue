@@ -1,0 +1,18 @@
+<div id="new-ticket">
+  {{#if newTicketForm}}
+  <form>
+    <div id="new-ticket-container">
+      <div class="form-group">
+        {{input type="text" name="name" value=name placeholder="Please enter your name" class="form-control"}}
+        <br>
+        {{textarea name="body" value=body placeholder="Give a brief description of issue you are having" class="form-control" rows="6"}}
+        <br>
+        <button class="btn btn-primary" type="submit" {{action "createTicket"}}>Help!</button>
+      </div>
+    </div>
+  </form>
+  {{else}}
+  <h3>Help will be there shortly!</h3>
+  <button class="btn btn-primary" {{action "deleteTicket"}}>We no longer need you!</button>
+  {{/if}}
+</div>

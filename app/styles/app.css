@@ -27,9 +27,14 @@ body {
 #footer:hover {
   text-decoration: none;
   font-size: 105%;
+  cursor: pointer;
 }
 
 /*###########DOCUMENTING PAGES############ */
+button {
+  cursor: pointer;
+}
+
 .help-windows-container {
   max-width: 50%;
   width: 100%;
@@ -37,6 +42,7 @@ body {
   text-align:center;
   font-size:1.5em;
   font-family: 'Nixie One', cursive;
+
 }
 
 
@@ -47,8 +53,38 @@ body {
   text-align:center;
   font-size:1.5em;
   font-family: 'Nixie One', cursive;
+
 }
 
 #help-page-container button {
   float:right;
+
+}
+
+#index-container {
+  max-width: 50%;
+  width: 100%;
+  margin: 0 auto;
+  text-align:center;
+  font-size:1.5em;
+  font-family: 'Nixie One', cursive;
+
+}
+
+#index-container:hover {
+  text-decoration: none;
+  font-size: 155%;
+
+}
+
+/*###########NEW TICKET PAGE############ */
+
+#new-ticket {
+  max-width: 50%;
+  width: 100%;
+  margin: 0 auto;
+  text-align:center;
+  font-size:1.5em;
+  font-family: 'Nixie One', cursive;
+
 }

@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('other-pair');
   this.route('documenting');
   this.route('help-page');
+  this.route('debugging');
 });
 
 export default Router;
