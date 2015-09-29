@@ -1,19 +1,20 @@
 {{outlet}}
 
-
-<div id="current-ticket-header">
-  <h3>Current Tickets:</h3>
-</div>
-
 <div id="current-tickets">
+  <h3>Current tickets:</h3>
+  <br>
   {{#each model as |help-ticket|}}
-    <p> <em><b>Partners:</b></em>   {{help-ticket.name}} <br> <em><b>Issue:</b></em>  {{help-ticket.body}} </p>
-    <button {{action "deleteTicket"}} class="btn btn-primary">Close ticket!</button>
-    <br><br>
+    <div id="ticket-list">
+      <pre> <em><b>Partners:</b></em>   {{help-ticket.name}} </pre>  <pre> <em><b>Issue:</b></em>  {{help-ticket.body}} </pre>
+      <button {{action "deleteTicket"}} class="btn btn-primary">Close ticket!</button>
+      <br><br>
+  </div>
   {{/each}}
 </div>
 
- <hr><hr>
+ 
  <div id="footer">
    {{#link-to 'statistics'}} View today's statistics {{/link-to}}
+   <br><br>
+   {{#link-to 'index'}} Back to main page {{/link-to}}
  </div>
